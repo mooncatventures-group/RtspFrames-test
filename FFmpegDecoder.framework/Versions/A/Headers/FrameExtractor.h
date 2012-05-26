@@ -43,11 +43,21 @@
 
 -(void)setupCgimageSession;
 
+-(void)setupPVimageSession;
+
+-(void)setupCmsampleSession;
+
+
+
 -(void)setOutputWidth:(int)newValue;
 
 -(void)setOutputHeight:(int)newValue;
 
 -(CVPixelBufferRef)cvPixelBufferRef;
+
+-(CMSampleBufferRef)cmSampleBufferRef;
+
+
 
 /* Last decoded picture as UIImage */
 @property (nonatomic, readonly) UIImage *currentImage;

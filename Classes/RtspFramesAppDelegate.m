@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     // Override point for customization after application launch.
-    self.video = [[FrameExtractor alloc] initWithVideo:@"rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov"];
+     self.video = [[FrameExtractor alloc] initWithVideo:@"rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov"];
     self.video.cgimageDelegate = self;
 		// set output image size
 	video.outputWidth = 426;

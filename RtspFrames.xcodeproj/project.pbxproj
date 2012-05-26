@@ -13,10 +13,10 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		303B47EE1550A5A600610BFD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303B47ED1550A5A600610BFD /* MainWindow.xib */; };
+		30E6550C15718EB200BDD86A /* FFmpegDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E6550B15718EB200BDD86A /* FFmpegDecoder.framework */; };
 		30FB0D621550A8C900839DAB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FB0D611550A8C900839DAB /* CoreMedia.framework */; };
 		30FB0D641550A8D100839DAB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FB0D631550A8D100839DAB /* CoreVideo.framework */; };
 		30FB0D661550A8E300839DAB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FB0D651550A8E300839DAB /* QuartzCore.framework */; };
-		30FB0D681550A9C100839DAB /* FFmpegDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FB0D671550A9C100839DAB /* FFmpegDecoder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		303B47ED1550A5A600610BFD /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		30E6550B15718EB200BDD86A /* FFmpegDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFmpegDecoder.framework; sourceTree = "<group>"; };
 		30FB0D611550A8C900839DAB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		30FB0D631550A8D100839DAB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		30FB0D651550A8E300839DAB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		30FB0D671550A9C100839DAB /* FFmpegDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFmpegDecoder.framework; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* RtspFrames_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspFrames_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* RtspFrames-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RtspFrames-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FB0D681550A9C100839DAB /* FFmpegDecoder.framework in Frameworks */,
+				30E6550C15718EB200BDD86A /* FFmpegDecoder.framework in Frameworks */,
 				30FB0D661550A8E300839DAB /* QuartzCore.framework in Frameworks */,
 				30FB0D621550A8C900839DAB /* CoreMedia.framework in Frameworks */,
 				30FB0D641550A8D100839DAB /* CoreVideo.framework in Frameworks */,
@@ -74,6 +74,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				30E6550B15718EB200BDD86A /* FFmpegDecoder.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -104,7 +105,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30FB0D671550A9C100839DAB /* FFmpegDecoder.framework */,
 				30FB0D651550A8E300839DAB /* QuartzCore.framework */,
 				30FB0D631550A8D100839DAB /* CoreVideo.framework */,
 				30FB0D611550A8C900839DAB /* CoreMedia.framework */,
